@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import wallet, transaction
+from api import wallet, transaction
 
 app = FastAPI(title="ZuttoWalletCoin API")
 
